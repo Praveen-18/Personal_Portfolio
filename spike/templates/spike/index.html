@@ -1,0 +1,811 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+
+    <title>Praveen S</title>
+    <meta content="" name="description"/>
+    <meta content="" name="keywords"/>
+
+
+    <link href="{% static 'spike/assets/img/portfolio/logo-removebg-preview.png' %}" rel="icon"/>
+    <link href="{% static 'spike/assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon"/>
+
+
+    <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+            rel="stylesheet"
+    />
+    <link href="{% static 'spike/assets/vendor/aos/aos.css' %}" rel="stylesheet"/>
+    <link
+            href="{% static 'spike/assets/vendor/bootstrap/css/bootstrap.min.css' %}"
+            rel="stylesheet"
+    />
+    <link
+            href="{% static 'spike/assets/vendor/bootstrap-icons/bootstrap-icons.css' %}"
+            rel="stylesheet"
+    />
+    <link href="{% static 'spike/assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet"/>
+    <link
+            href="{% static 'spike/assets/vendor/glightbox/css/glightbox.min.css' %}"
+            rel="stylesheet"
+    />
+    <link href="{% static 'spike/assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet"/>
+
+    <link href="{% static 'spike/assets/css/style.css' %}" rel="stylesheet"/>
+</head>
+
+<body>
+<video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+    <source src="{% static 'spike/assets/img/portfolio/video.mp4' %}" type="video/webm">
+    <source src="{% static 'spike/assets/img/portfolio/video.mp4' %}" type="video/mp4">
+</video>
+<i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+<header id="header" style="padding-top: 30px">
+    <div class="d-flex flex-column">
+        <div class="profile">
+            <img
+                    src="{% static 'spike/assets/img/portfolio/logo-removebg-preview.png' %}"
+                    alt=""
+                    class="img-fluid rounded-circle"
+            />
+            <h1 class="text-light"><a href="index.html">Praveen S</a></h1>
+            <div class="social-links mt-3 text-center">
+                <a href="https://github.com/Praveen-18" class="github" target="new">
+                    <iconify-icon icon="octicon:mark-github-16"></iconify-icon>
+                </a>
+                <a href="https://www.instagram.com/praveen_1_8/" class="instagram" target="new"><i
+                        class="bx bxl-instagram"></i></a>
+                <a href="https://leetcode.com/prav20ad036/" class="leetcode" target="new">
+                    <iconify-icon icon="simple-icons:leetcode"></iconify-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/praveen-s-1101a9253" class="linkedin" target="new"><i
+                        class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+
+
+        <nav id="navbar" class="nav-menu navbar" style="padding-top: 50px">
+            <ul>
+                <li>
+                    <a href="#hero" class="nav-link scrollto active"
+                    ><i class="bx bx-home"></i> <span>Home</span></a
+                    >
+                </li>
+                <li>
+                    <a href="#about" class="nav-link scrollto"
+                    ><i class="bx bx-user"></i> <span>About</span></a
+                    >
+                </li>
+                <li>
+                    <a href="#resume" class="nav-link scrollto"
+                    ><i class="bx bx-file-blank"></i> <span>Resume</span></a
+                    >
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link scrollto"
+                    ><i class="bx bx-book-content"></i> <span>Projects</span></a
+                    >
+                </li>
+                <li>
+                    <a href="#services" class="nav-link scrollto"
+                    ><i class="bx bx-server"></i> <span>Internship</span></a
+                    >
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section
+        id="hero"
+        class="d-flex flex-column justify-content-center align-items-center"
+>
+
+    <div class="hero-container" data-aos="fade-in">
+        <h1 class="ml3">Praveen S</h1>
+
+        <p>
+            &nbsp;I'm
+            <span
+                    class="typed"
+                    data-typed-items="a Student, a Developer, a Freelancer, an Engineer"
+            ></span>
+        </p>
+    </div>
+</section>
+
+<main id="main">
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>ABOUT</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <img src="{% static 'spike/assets/img/portfolio/logo-removebg-preview.png' %}" class="img-fluid"
+                         alt=""/>
+                </div>
+                <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                    <h3>Engineer &amp; Full Stack Developer.</h3><br><br>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <strong>Birthday:</strong> <span>18 February 2003</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <strong>Website:</strong> <span>www.example.com</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <strong>Email:</strong>
+                                    <span>praveensp1802@gmail.com</span>
+                                </li>
+
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <strong>City:</strong> <span>Chennai</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul>
+                                <li>
+                                    <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                                    <span>20</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <strong>Freelance:</strong> <span>Available</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <strong>Degree:</strong> <span>Bachelor</span>
+                                </li>
+                                <li>
+                                    <i class="bi bi-chevron-right"></i>
+                                    <strong>Branch:</strong> <span>Artificial Intelligence and Data Science</span>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="facts" class="facts">
+        <div class="container">
+            <div class="section-title">
+                <h2>PROGRAMMING ACHIEVEMENTS</h2>
+            </div>
+
+            <div class="row no-gutters">
+                <div
+                        class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+                        data-aos="fade-up"
+                >
+                    <div class="count-box">
+                        <i class="bi bi-emoji-smile"></i>
+                        <span
+                                data-purecounter-start="0"
+                                data-purecounter-end="1453"
+                                data-purecounter-duration="2"
+                                class="purecounter"
+                        ></span>
+                        <p><strong>LeeCode</strong> Contest Rating</p>
+                    </div>
+                </div>
+
+                <div
+                        class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                >
+                    <div class="count-box">
+                        <i class="bi bi-emoji-laughing"></i>
+                        <span
+                                data-purecounter-start="0"
+                                data-purecounter-end="111"
+                                data-purecounter-duration="2"
+                                class="purecounter"
+                        ></span>
+                        <p><strong>Skillrack</strong> Over All Program Solver Rank</p>
+                    </div>
+                </div>
+
+                <div
+                        class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                >
+                    <div class="count-box">
+                        <i class="bi bi-emoji-heart-eyes"></i>
+                        <span
+                                data-purecounter-start="0"
+                                data-purecounter-end="3620"
+                                data-purecounter-duration="1"
+                                class="purecounter"
+                        ></span>
+                        <p><strong>Skill Rack</strong> Total Number of Programs Solved</p>
+                    </div>
+                </div>
+
+                <div
+                        class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch"
+                        data-aos="fade-up"
+                        data-aos-delay="300"
+                >
+                    <div class="count-box">
+                        <i class="bi bi-emoji-wink"></i>
+                        <span
+                                data-purecounter-start="0"
+                                data-purecounter-end="140"
+                                data-purecounter-duration="1"
+                                class="purecounter"
+                        ></span>
+                        <p><strong>LeetCode</strong> Total Number Of Programs Solved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills section-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Skills</h2>
+
+            </div>
+
+            <div class="row skills-content">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="progress">
+                        <span class="skill">JAVA <i class="val">80%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div
+                                    class="progress-bar"
+                                    role="progressbar"
+                                    aria-valuenow="80"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                            ></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">C <i class="val">75%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div
+                                    class="progress-bar"
+                                    role="progressbar"
+                                    aria-valuenow="75"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                            ></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">PYTHON <i class="val">75%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div
+                                    class="progress-bar"
+                                    role="progressbar"
+                                    aria-valuenow="75"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="progress">
+                        <span class="skill">Web Development(Html,Css,Javascript,Django)<i class="val">80%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div
+                                    class="progress-bar"
+                                    role="progressbar"
+                                    aria-valuenow="80"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                            ></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">SQL<i class="val">60%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div
+                                    class="progress-bar"
+                                    role="progressbar"
+                                    aria-valuenow="60"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                            ></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">Data Structures <i class="val">55%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div
+                                    class="progress-bar"
+                                    role="progressbar"
+                                    aria-valuenow="55"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="resume" class="resume">
+        <div class="container">
+            <div class="section-title">
+                <h2>RESUME</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <h3 class="resume-title">Sumary</h3>
+                    <div class="resume-item pb-0">
+                        <h4>Praveen S</h4>
+                        <p>
+                            <em
+                            >A highly motivated Full-stack developer and Engineering student. I am good at
+                                Problem-Solving in programming languages and web development projects. Looking forward
+                                to a job in which I will work with my whole sincerity and hard work and grow along with
+                                company. </em
+                            >
+                        </p>
+                        <ul>
+                            <li>B.Tech Artificial Intelligence and Data Science - 3rd year</li>
+                            <li>praveensp1802@gmail.com</li>
+                            <li>Chennai</li>
+                        </ul>
+                    </div>
+
+                    <h3 class="resume-title">Education</h3>
+                    <div class="resume-item">
+                        <h4>B.Tech Artificial Intelligence and Data Science - 8.8 CGPA</h4>
+                        <h5>2020 - 2024</h5>
+                        <p><em>R. M. K College of Engineering and Technology</em></p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>HSC - 79%</h4>
+                        <h5>2020</h5>
+                        <p><em>Velammal Matric Hr Sec School </em></p>
+                    </div>
+                    <div class="resume-item">
+                        <h4>SSLC - 93%</h4>
+                        <h5>2018</h5>
+                        <p><em>Velammal Matric Hr Sec School </em></p>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="resume-title">Achievements</h3>
+                    <div class="resume-item">
+                        <ul>
+                            <li>
+                                Got Selected as a Recognizing High Performer (RHP) in the R.M.K Group Of Institutions.
+                            </li>
+                            <li>
+                                Got an Internship as Neo Intern at Iamneo.ai
+                            </li>
+                            <li>
+                                Top performer in the Code test conducted by Skillrack and secured an overall rank of
+                                112.
+
+                            </li>
+                            <li>
+                                Achieved 45 certificates in the Skillrack programming portal.
+
+                            </li>
+                            <li>
+                                Got Selected in Smart India hackathon 2022 (Internal Hackathon 4th place)
+                            </li>
+                            <li>
+                                Participated in National Level Hackathon conducted by RMD Engineering College and Won
+                                First Price.
+
+                            </li>
+                            <li>
+                                Participated in National Level Hackathon conducted by Rajalakshmi Engineering College
+                                and Won First Price.
+                            </li>
+                            <li>
+                                Techpro debugging - 1st price , iCatch - 1st price (Rajalakshmi Engineering College) ,
+                                Rendezvous - 2nd price (RMD Engineering College)
+
+                            </li>
+                            <li>
+                                Participated in various events in the National Level Technical Symposium conducted by
+                                Saveetha
+                                College of Engineering and Technology Engineering College.
+
+                            </li>
+                            <li>
+                                Accomplished 2680 Medals in SkillRack Programming Portal
+                            </li>
+                            <li>
+                                Got Certificate on J2EE - full stack on java
+                            </li>
+                            <li>
+                                Solved over 3594 Programs in SkillRack Programming Portal.
+                            </li>
+                            <li>
+                                Successfully Completed Internship on Artificial Intelligence- Pantech Solutions
+                            </li>
+                            <li>
+                                Successfully Completed Web Development - FIIT
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio section-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Projects</h2>
+            </div>
+
+            <div class="row" data-aos="fade-up">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <ul id="portfolio-flters">
+                        <li data-filter="*" class="filter-active">All</li>
+                        <li data-filter=".filter-app">Web</li>
+                        <li data-filter=".filter-card">AI - Ml</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div
+                    class="row portfolio-container"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+            >
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img
+                                src="{% static 'spike/assets/img/projects/Screenshot (59).png' %}"
+                                class="img-fluid"
+                                alt=""
+                        />
+                        <div class="portfolio-links">
+                            <a href="https://spikeshows.netlify.app/" title="More Details" style="width: 100%"
+                               target="next">
+                                Spike Shows</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img
+                                src="{% static 'spike/assets/img/projects/Screenshot (60).png' %}"
+                                class="img-fluid"
+                                alt=""
+                        />
+                        <div class="portfolio-links">
+                            <a href="https://github.com/Praveen-18/electricity3" title="More Details"
+                               style="width: 100%" target="new"
+                            >Electrifo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img
+                                src="{% static 'spike/assets/img/projects/Screenshot (61).png' %}"
+                                class="img-fluid"
+                                alt=""
+                        />
+                        <div class="portfolio-links">
+                            <a href="https://github.com/Praveen-18/bookmyshow-clone" title="More Details" target="new"
+                               style="width: 100%">Book My Show Clone</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img
+                                src="{% static 'spike/assets/img/projects/Screenshot (62).png' %}"
+                                class="img-fluid"
+                                alt=""
+                        />
+                        <div class="portfolio-links">
+                            <a href="https://github.com/Praveen-18/portfolio" title="More Details" style="width: 100%"
+                               target="new"
+                            >First Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img
+                                src="{% static 'spike/assets/img/projects/Screenshot (63).png' %}"
+                                class="img-fluid"
+                                alt=""
+                        />
+                        <div class="portfolio-links">
+                            <a href="https://github.com/RMKCET-AI/tesseract" title="More Details"
+                               style="width: 100%">Tesseract</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img
+                                src="{% static 'spike/assets/img/projects/Screenshot (64).png' %}"
+                                class="img-fluid"
+                                alt=""
+                        />
+                        <div class="portfolio-links">
+                            <a href="#" title="More Details"
+                               style="width: 100%">College Website</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img
+                                src="{% static 'spike/assets/img/projects/Screenshot (65).png' %}"
+                                class="img-fluid"
+                                alt=""
+                        />
+                        <div class="portfolio-links">
+                            <a href="#" title="More Details"
+                               style="width: 100%">Face Recognition - SVM</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img
+                                src="{% static 'spike/assets/img/projects/Screenshot (66).png' %}"
+                                class="img-fluid"
+                                alt=""
+                        />
+                        <div class="portfolio-links">
+                            <a href="#" title="More Details"
+                               style="width: 100%">TVM</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <div class="portfolio-wrap">
+                        <img
+                                src="{% static 'spike/assets/img/projects/Screenshot (67).png' %}"
+                                class="img-fluid"
+                                alt=""
+                        />
+                        <div class="portfolio-links">
+                            <a href="https://github.com/Praveen-18/Moving_object_detection" title="More Details"
+                               target="new"
+                               style="width: 100%">Moving Object Detection</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                    <div class="portfolio-wrap">
+                        <img
+                                src="{% static 'spike/assets/img/projects/Screenshot (68).png' %}"
+                                class="img-fluid"
+                                alt=""
+                        />
+                        <div class="portfolio-links">
+                            <a href="#" title="More Details"
+                               style="width: 100%">Personal Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>InternShips</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                    <div class="icon"><i class="bi bi-briefcase"></i></div>
+                    <h4 class="title">Neo Intern (Web Developer) - Iamneo</h4>
+                    <p class="description">
+                        Completed a full stack Movie Booking Webiste
+                    </p>
+                </div>
+                <div
+                        class="col-lg-4 col-md-6 icon-box"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                >
+                    <div class="icon"><i class="bi bi-briefcase"></i></div>
+                    <h4 class="title">Internship on Artificial Intelligence - Pantech Solutions</h4>
+                    <p class="description">
+                        Learned and built Machine learning and Artifical Intelligence Models
+                    </p>
+                </div>
+                <div
+                        class="col-lg-4 col-md-6 icon-box"
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                >
+                    <div class="icon"><i class="bi bi-briefcase"></i></div>
+                    <h4 class="title">Web Development - FIIT</h4>
+                    <p class="description">
+                        Learned and worked basics on front-end development
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="testimonials section-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>Certifications</h2>
+            </div>
+
+            <div
+                    class="testimonials-slider swiper"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+            >
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="portfolio-wrap">
+                                <img
+                                        src="{% static 'spike/assets/img/certificates/problem_solving_basic certificate_page-0001.jpg' %}"
+                                        class="img-fluid"
+                                        alt=""
+                                />
+                                <br>
+                                <br>
+                                <img
+                                        src="{% static 'spike/assets/img/certificates/sih.jpg' %}"
+                                        class="img-fluid"
+                                        alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="portfolio-wrap">
+                                <img
+                                        src="{% static 'spike/assets/img/certificates/PS-AI-JUL2022-0440.jpg' %}"
+                                        class="img-fluid"
+                                        alt=""
+                                />
+                                <br>
+                                <br>
+                                <img
+                                        src="{% static 'spike/assets/img/certificates/rmd.jpg' %}"
+                                        class="img-fluid"
+                                        alt=""
+                                />
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="portfolio-wrap">
+                                <img
+                                        src="{% static 'spike/assets/img/certificates/rmd1.jpg' %}"
+                                        class="img-fluid"
+                                        alt=""
+                                />
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="portfolio-wrap">
+                                <img
+                                        src="{% static 'spike/assets/img/certificates/fiit.jpg' %}"
+                                        class="img-fluid"
+                                        alt=""
+                                />
+                                <br>
+                                <br>
+                                <img
+                                        src="{% static 'spike/assets/img/certificates/python_basic certificate_page-0001.jpg' %}"
+                                        class="img-fluid"
+                                        alt=""
+                                />
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="portfolio-wrap">
+                                <img
+                                        src="{% static 'spike/assets/img/certificates/skillrack.jpg' %}"
+                                        class="img-fluid"
+                                        alt=""
+                                />
+                                <br>
+                                <br>
+                                <img
+                                        src="{% static 'spike/assets/img/certificates/rajalakshmi.jpg' %}"
+                                        class="img-fluid"
+                                        alt=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="portfolio-wrap">
+                                <img
+                                        src="{% static 'spike/assets/img/certificates/csc.jpg' %}"
+                                        class="img-fluid"
+                                        alt="" style="padding-top: 25px"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer id="footer" style="background: none">
+    <div class="container">
+        <div class="copyright">
+            &copy; Copyright <strong><span>Spike</span></strong>
+        </div>
+        <div class="credits">
+            Designed by <a href="https://bootstrapmade.com/">Praveen</a>
+        </div>
+    </div>
+</footer>
+<a
+        href="#"
+        class="back-to-top d-flex align-items-center justify-content-center"
+><i class="bi bi-arrow-up-short"></i
+></a>
+<script src="{% static 'spike/assets/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+<script src="{% static 'spike/assets/vendor/aos/aos.js' %}"></script>
+<script src="{% static 'spike/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'spike/assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+<script src="{% static 'spike/assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+<script src="{% static 'spike/assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+<script src="{% static 'spike/assets/vendor/typed.js/typed.min.js' %}"></script>
+<script src="{% static 'spike/assets/vendor/waypoints/noframework.waypoints.js' %}"></script>
+<script src="{% static 'spike/assets/vendor/php-email-form/validate.js' %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+<script src="{% static 'spike/assets/js/main.js' %}"></script>
+</body>
+</html>
